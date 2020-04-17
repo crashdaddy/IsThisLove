@@ -7,4 +7,12 @@ A love tester based on 1 Corinthians 13:4-8
 
 8 Love never fails
 
+UPDATE:
+
+  4/17/20 -- made the list of checks
+         
+          -- hearts change when user clicks them (empty, half-full, full)
+
+          -- that's all
+
 
