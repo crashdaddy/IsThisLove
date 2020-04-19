@@ -1,121 +1,26 @@
 <!doctype html>
 <html>
     <head>
-        <style>
-            body {
-                background-image: url(img/hearts.jpg);
-            }
-            .outerDiv {
-                font-family:montserrat;
-                font-size: 48px;
-                max-width:80%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom:30px;
-                border:1px solid black;
-                -webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75); 
-                background-color:rgb(138, 169, 255);
-                padding:30px;
-                box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.5);
-                -webkit-transform: skewX(-8deg);
-                transform: skewX(-8deg);
-                border-radius: 25px;
-                text-align: center;
-            }
-
-            .picDiv {
-                float:left;
-                padding-right:4px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
     </head>
     <body>
 
-        <!-- Addictive Flavour 3 Icon Set 5 RSS-Feed Icons (.jpg, .png)
-            Designed by Mirjami Manninen (http://www.mirkku.com) -->
-
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love is Patient</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love is Kind</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Does Not Envy</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Does Not Boast</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love is Not Proud</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Does Not Dishonour Others</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love is Not Self-Seeking</div>
-            <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love is Not Easily Angered</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Keeps No Record of Wrongs</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Does Not Delight in Evil</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Rejoices with the Truth</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Always Protects</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Always Trusts</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Always Hopes</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Always Perseveres</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-            <div class="outerDiv">
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-                <div style="display:inline;text-align: right;">Love Never Fails</div>
-                <div style="display:inline;text-align: left;"><img src="img/heart_empty.png" onclick="changeHeart(this)"></div>
-            </div>
-
-
+        <div id="rules">
+            <span style="color:#FF8AA9;display:contents;">God's Love Standards</span><br/>
+            Be honest and fearless and you will
+            get an accurate evaluation of your relationship! <br/><span style="display:contents;color: #FF8AA9;">Click the hearts to score.</span>
+        </div>
+        <div id="wrapper"></div>
+        <div id="score"></div>
+        <div id="scoreButtonDiv">
+        <input style="width:100%;" type="button" class="BUTTON_VZV" value="See Your Results" onclick="getScore()"/>
+        </div>
+        <div id="credits">Test Criteria courtesy:<br/> 1 Corinthians 13:4-8<br/>
+        Font (Quite Magical) courtesy of:<br/> <a href="https://mistifonts.com/">Misti's Fonts</a><br/>
+        Icons (Addictive Flavour 3 Icon Set 5) courtesy of:<br/> <a href="http://www.mirkku.com">Mirjami Manninen</a><br/>
+        Want to support?<br/>
+        <a href='https://ko-fi.com/X7X71LE69' target='_blank'><img src="img/kofismall.png" style="width:80%;height: auto;"></a>
+        </div>
         <script src="src/main.js"></script>
     </body>
 </html>
